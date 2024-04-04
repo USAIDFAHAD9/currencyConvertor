@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Features Used:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Functional Components: Both InputBox and App are functional components.
+State Management: useState hook is used for managing state variables.
+Props: Components receive data and functions via props.
+Hooks: useId and custom hooks (useCurrencyInfo) are utilized.
+Event Handling: onChange, onClick, and onSubmit events are handled.
+Conditional Rendering: Conditional rendering is performed based on state and props.
+Component Composition: Components are composed together to create the UI.
+Default Props: Default values are provided for some props.
+Inline Styling: Inline CSS is used for dynamic styling.
